@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_react_graphql
+  pool: 5
+  username: postgres
+  password: olamilekan
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_react_graphql_test
+  pool: 5
+  username: postgres
+  password: olamilekan
+  timeout: 5000
